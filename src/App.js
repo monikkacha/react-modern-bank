@@ -18,7 +18,7 @@ import {
 
 function App() {
   return (
-    <div className="bg-primary w-full overflow-hidden text-white">
+    <div className={`bg-primary w-full overflow-hidden ${styles.boxWidth}`}>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
@@ -36,7 +36,7 @@ function App() {
           <Stats />
           <Business />
           <Billing />
-          <Credential />
+          <CardDeal />
           <Testimonial />
           <Client />
           <CTA />
